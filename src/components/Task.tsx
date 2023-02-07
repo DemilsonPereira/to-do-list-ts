@@ -25,8 +25,8 @@ export function Task() {
                     </strong>
                 </div>
             </header>
-            <div className={styles.newTask}>
-                
+            <div className={styles.listTask}>
+
             </div>
         </article>
     )

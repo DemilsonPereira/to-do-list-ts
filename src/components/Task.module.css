@@ -1,8 +1,8 @@
 .bodyTask {
     display: flex;
     align-items: center;
-    width: 736px;
-    height: 287px;
+    width: 46rem;
+    /* height: 17.938rem; */
     justify-content: space-between;
 }
 
@@ -24,4 +24,9 @@
     color: var(--gray-200);
     margin-left: 0.5rem;
 
+}
+
+.listTask {
+    border-top: 1px solid #333333;
+    border-radius: 10px;
 }
