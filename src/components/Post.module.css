@@ -1,0 +1,36 @@
+.post div {
+    display: flex;
+    align-items: center;
+
+    margin-top: calc(0px - 1.2rem - 6px);
+}
+
+.post input {
+    width: 39.875rem;
+    height: 3.375rem;
+    margin-right: 0.5rem;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    border: 0 solid var(--gray-700);
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.post button {
+    width: 5.625rem;
+    height: 3.375rem;
+    background: var(--azulescuro);
+    border: 0;
+    color: var(--gray-100);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 6px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post button svg {
+    margin-left: 0.313rem;
+}

@@ -1,0 +1,27 @@
+.bodyTask {
+    display: flex;
+    align-items: center;
+    width: 736px;
+    height: 287px;
+    justify-content: space-between;
+}
+
+.newTask strong {
+    color: var(--azulclaro);
+}
+
+.newTask span {
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+
+}
+
+.completedTask strong {
+    color: var(--roxoclaro);
+}
+
+.completedTask span {
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+
+}
