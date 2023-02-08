@@ -1,4 +1,4 @@
-import { ThumbsUp } from 'phosphor-react';
+import { ClipboardText } from 'phosphor-react';
 import styles from './Task.module.css';
 import { useState } from 'react';
 
@@ -12,7 +12,7 @@ export function Task() {
     }
 
     return (
-        <article>
+        <article className={styles.article}>
             <header className={styles.bodyTask}>
                 <div className={styles.newTask}>
                     <strong>
@@ -26,7 +26,11 @@ export function Task() {
                 </div>
             </header>
             <div className={styles.listTask}>
-
+                <div className={styles.messageTask}>
+                    <ClipboardText size={56}/>
+                    <p><strong>Você ainda não tem tarefas cadastradas</strong></p>
+                    <p>Crie tarefas e organize seus itens a fazer</p>
+                </div>
             </div>
         </article>
     )

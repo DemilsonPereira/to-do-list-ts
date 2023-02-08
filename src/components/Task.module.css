@@ -1,8 +1,12 @@
+.article {
+    width: 46rem;
+    height: 17.875rem;
+    margin-top: 3.75rem;
+
+}
+
 .bodyTask {
     display: flex;
-    align-items: center;
-    width: 46rem;
-    /* height: 17.938rem; */
     justify-content: space-between;
 }
 
@@ -28,5 +32,19 @@
 
 .listTask {
     border-top: 1px solid #333333;
-    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.messageTask {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.messageTask svg{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    justify-content: center;
 }

@@ -6,8 +6,10 @@ import headerToDo from '../assets/todo.svg'
 export function Header() {
     return (
         <header className={styles.header}>
-            <img src={headerLogo} alt="Logo RocketSeat" />
-            <img src={headerToDo} alt="Logo To Do" />
+            <div>
+                <img src={headerLogo} alt="Logo RocketSeat" />
+                <img className={styles.headerToDo} src={headerToDo} alt="Logo To Do" />
+            </div>
         </header>
     )
 }

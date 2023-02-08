@@ -1,4 +1,4 @@
-.post div {
+.post form {
     display: flex;
     align-items: center;
     margin-top: calc(0px - 1.2rem - 6px);

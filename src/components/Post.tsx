@@ -5,7 +5,7 @@ import { Task } from './Task'
 export function Post() {
     return (
         <article className={styles.post}>
-            <div>
+            <form>
                 <input type='text' placeholder='Adicione uma nova tarefa' />{' '}
                 <button
                     type='submit'
@@ -13,7 +13,7 @@ export function Post() {
                     <strong>Criar</strong>
                     <PlusCircle size={22} />
                 </button>
-            </div>
+            </form>
 
             <div>
                 <Task />
